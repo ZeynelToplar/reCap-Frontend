@@ -18,5 +18,9 @@
         <td>{{car.dailyPrice}}</td>
         <td>{{car.modelYear}}</td>
         <td>{{car.description}}</td>
+        <button 
+        routerLink = "/cars/carDetail/{{car.id}}"
+        type="button" 
+        class="btn btn-primary btn-sm">Detaylar</button>
     </tr>
 </table>
